@@ -8,6 +8,17 @@
     <artifactId>awesome-java-tools</artifactId>
     <version>0.0.1</version>
 
+    <name>Awesome Java Tools</name>
+    <description>Awesome Java Tools</description>
+    <url>https://github.com/tcmyxc/awesome-java-tools</url>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
