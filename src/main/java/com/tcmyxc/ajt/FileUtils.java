@@ -33,7 +33,7 @@ public class FileUtils {
      * @return
      */
     public static List<String> listFiles(String path) {
-    	if(StringUtils.isEmpty(path)){
+    	if(StringUtils.isBlank(path)){
             return null;
         }
 
