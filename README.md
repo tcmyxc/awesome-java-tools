@@ -3,5 +3,6 @@
 - StringUtils
 - IdUtils
 - FileUtils
+- EncryptUtils
 
 欢迎大家贡献
