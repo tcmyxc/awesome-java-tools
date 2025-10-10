@@ -4,5 +4,6 @@
 - IdUtils
 - FileUtils
 - EncryptUtils
+- RandomCodeUtils
 
 欢迎大家贡献
