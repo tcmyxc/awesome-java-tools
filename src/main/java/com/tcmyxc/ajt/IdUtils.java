@@ -2,9 +2,13 @@ package com.tcmyxc.ajt;
 
 /**
  * Id工具类
+ *
  * @author tcmyxc
  */
 public class IdUtils {
+
+    private IdUtils() {
+    }
 
     /**
      * 获取不带横线的随机UUID

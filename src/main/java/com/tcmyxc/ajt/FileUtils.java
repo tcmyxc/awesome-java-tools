@@ -9,8 +9,12 @@ import java.util.List;
  */
 public class FileUtils {
 
+    private FileUtils() {
+    }
+
     /**
      * 获取文件扩展名
+     *
      * @param fileName
      * @return
      */
@@ -29,11 +33,12 @@ public class FileUtils {
 
     /**
      * 列举指定目录下的所有文件
+     *
      * @param path
      * @return
      */
     public static List<String> listFiles(String path) {
-    	if(StringUtils.isEmpty(path)){
+        if (StringUtils.isBlank(path)) {
             return null;
         }
 
@@ -41,7 +46,7 @@ public class FileUtils {
         File dir = new File(path);
         File[] files = dir.listFiles();
         List<String> fileList = new ArrayList<>();
-        for(File file : files){
+        for (File file : files) {
             fileList.add(file.getAbsolutePath());
         }
         return fileList;
