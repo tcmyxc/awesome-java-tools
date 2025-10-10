@@ -6,14 +6,19 @@ import java.security.NoSuchAlgorithmException;
 
 /**
  * 加密工具类
+ *
  * @author tcmyxc
  */
 public class EncryptUtils {
+
+    private EncryptUtils() {
+    }
 
     private static final int SALT_LENGTH = 8;
 
     /**
      * 获取给定字符串的MD5值
+     *
      * @param str
      * @return
      */
@@ -45,6 +50,7 @@ public class EncryptUtils {
 
     /**
      * 双重MD5加密（随机加盐）
+     *
      * @param str
      * @return
      */
@@ -58,6 +64,7 @@ public class EncryptUtils {
 
     /**
      * 双重MD5加密（指定盐）
+     *
      * @param str
      * @param salt
      * @return

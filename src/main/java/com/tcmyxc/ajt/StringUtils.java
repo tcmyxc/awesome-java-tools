@@ -7,6 +7,9 @@ package com.tcmyxc.ajt;
  */
 public class StringUtils {
 
+    private StringUtils() {
+    }
+
     /**
      * 判断字符串是否为空，null或者""都返回true
      */
